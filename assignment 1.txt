@@ -11,6 +11,6 @@ object Assignment_1 {
 
   def volume(r:Int):Double=(4.0/3.0)*(22/7)*(r*r*r)
 
-  def whole_sale_price(NumberOfBooks:Int):Double=(NumberOfBooks*(24.95*40/100) +(3+0.75*(NumberOfBooks-50)))
+  def whole_sale_price(NumberOfBooks:Int):Double=((NumberOfBooks*24.95)*(60/100)) +(3+0.75*(NumberOfBooks-50)))
 
 }
