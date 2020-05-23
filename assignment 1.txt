@@ -1,0 +1,16 @@
+object Assignment_1 {
+  def main(args :Array[String])={
+    print("addition of 3 and 6 is :" + add(3,6))
+    print("\nCelcies to Faranhite :"+ faranhite(37))
+    print("\nVolume is  :"+ volume(5))
+    print("\nWhole Sale Price  :"+ whole_sale_price(60))
+  }
+  def add(x:Int,y:Int):Int=x+y
+
+  def faranhite(c:Double):Double=(c*1.8)+32
+
+  def volume(r:Int):Double=(4/3)*(22/7)*(r*r*r)
+
+  def whole_sale_price(NumberOfBooks:Int):Double=(NumberOfBooks*(24.95*40/100) +(3+0.75*(NumberOfBooks-50)))
+
+}
