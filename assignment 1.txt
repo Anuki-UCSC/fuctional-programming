@@ -1,8 +1,8 @@
 object Assignment_1 {
   def main(args :Array[String])={
     print("addition of 3 and 6 is :" + add(3,6))
-    print("\nCelcies to Faranhite :"+ faranhite(37))
-    print("\nVolume is  :"+ volume(5))
+    print("\nCelcies to Faranhite :"+ faranhite(35))
+    print("\nVolume is  :"+ volume(3))
     print("\nWhole Sale Price  :"+ whole_sale_price(60))
   }
   def add(x:Int,y:Int):Int=x+y
