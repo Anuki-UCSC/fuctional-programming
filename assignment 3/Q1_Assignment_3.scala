@@ -1,7 +1,8 @@
 object Q1_Assignment_3 {
   def main(args: Array[String]): Unit = {
- println("7 is a prime number : "+ isPrime(7))
-    println("9 is a prime number : "+isPrime(9))
+    print("Enter a number : ") 
+    var n =scala.io.StdIn.readInt()
+    println("7 is a prime number : "+ isPrime(n))
   }
 
   def isPrime(a:Int,i:Int=2):Boolean= i match{
