@@ -5,9 +5,9 @@ object Assignment4{
   }
   def Encrypt_Decrypt(): Unit ={
     val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    var s:String = "ANUKI"
-    val E=(c:Char,key:Int,a:String)=> a((a.indexOf(c.toUpper)+key)%a.size)
-    val D=(c:Char,key:Int,a:String)=> a((a.indexOf(c.toUpper)-key+a.size)%a.size)
+    var s:String = "ANUKI GAYARA"
+    val E=(c:Char,key:Int,a:String)=> if(c!=' ') a((a.indexOf(c.toUpper)+key)%a.size) else ' '
+    val D=(c:Char,key:Int,a:String)=> if(c!=' ') a((a.indexOf(c.toUpper)-key+a.size)%a.size) else ' '
 
     val cipher=(algo:(Char,Int,String)=> Char,s:String,key:Int,a:String)=> s.map(algo(_,key,a))
     val ct=cipher(E,s,1,alphabet)
@@ -16,5 +16,6 @@ object Assignment4{
     println(s)
     println(ct)
     println(pt)
+    
   }
 }
