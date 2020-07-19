@@ -1,4 +1,4 @@
-object HelloWorld {
+object assignment {
    def main(args: Array[String]) {
      
      
