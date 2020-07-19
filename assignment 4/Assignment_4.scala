@@ -19,3 +19,14 @@ object Assignment4{
     
   }
 }
+
+
+// *********** OUTPUT FOR THE ABOVE CODE****************
+/*
+
+ANUKI GAYARA
+BOVLJ HBZBSB
+ANUKI GAYARA
+
+*/
+//*******************************************************
