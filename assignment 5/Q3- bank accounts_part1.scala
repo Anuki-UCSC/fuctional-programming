@@ -1,6 +1,6 @@
 
 object MyClass {
-    def main(args: Array[String]):Unit {
+    def main(args: Array[String]):Unit ={
         val acc1=new Account("988581682v",0001,12000)
         val acc2=new Account("893245774v",0002,1000)
         val acc3=new Account("898334555v",0003,9046)
